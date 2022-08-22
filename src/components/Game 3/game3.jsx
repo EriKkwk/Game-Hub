@@ -7,6 +7,14 @@ function Game3(){
             <span className='Scissors'>Scissors</span>
             <span className='Paper'>Paper</span>
         </div>
+        <div className="scoreContainer">
+            <span className='user'>User : </span>
+            <span className='results'>Results</span>
+            <span className='bob'>Bob : </span>
+        </div>
+        <div className="choice">
+            <img src="../assets/rock.jpeg"/>
+        </div>
     </div>
 }
 
