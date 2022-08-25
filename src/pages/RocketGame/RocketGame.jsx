@@ -39,7 +39,7 @@ function RocketGame(){
       }
     }
     function gameLoop(){
-      var div = document.getElementById("rocket");
+      let div = document.getElementById("rocket");
       if (up){
         y = y - 10
       }
