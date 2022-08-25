@@ -13,8 +13,8 @@ function Header(){
         </div>
         </Link>
         <div className="logreg">
-            <button onClick={() => {click()}}>LOGIN</button>
-            <button onClick={() => {click()}}>REGISTER</button>
+            <button className='hbtn loginbtn' onClick={() => {click()}}>LOGIN</button>
+            <button className='hbtn' onClick={() => {click()}}>REGISTER</button>
         </div>
     </div>
 }

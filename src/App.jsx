@@ -2,7 +2,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Layouts from './components/Layouts';
-import TicTacToe from './pages/Tic Tac Toe/TicTacToe';
+import TicTacToe from './pages/Tic Tac Toe/Game';
 import Game2 from './pages/game2/game2'
 import RockSpissorsPaper from './pages/RPS/RockSpissorsPaper'
 import RocketGame from './pages/RocketGame/RocketGame';
