@@ -2,10 +2,10 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Layouts from './components/Layouts';
-import XO from './pages/XO/XO';
+import TicTacToe from './pages/Tic Tac Toe/TicTacToe';
 import Game2 from './pages/game2/game2'
 import RockSpissorsPaper from './pages/RPS/RockSpissorsPaper'
-import Game4 from './pages/game4/game4';
+import RocketGame from './pages/RocketGame/RocketGame';
 
 function App() {
 
@@ -13,10 +13,10 @@ function App() {
     <Routes>
       <Route path="/" element={<Layouts />}>
         <Route path="/" element={<Home />}/>
-        <Route path="/games/XOgame" element={<XO />} />
+        <Route path="/games/ticTacToe" element={<TicTacToe />} />
         <Route path="/games/game2" element={<Game2 />} />
         <Route path="/games/rockSpissorsPaperGame" element={<RockSpissorsPaper />} />
-        <Route path="/games/game4" element={<Game4 />} />
+        <Route path="/games/rocketGame" element={<RocketGame />} />
       </Route>
     </Routes>
   </BrowserRouter>

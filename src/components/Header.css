@@ -12,6 +12,7 @@
 .logo{
     display: flex;
     align-items: center;
+    color: #fff;
 }
 .logo i{
     font-size: 55px;
@@ -19,4 +20,8 @@
 .logo span{
     margin-left: 10px;
     font-size: 40px;
+}
+
+.loginbtn{
+    margin-right: 5px;
 }
