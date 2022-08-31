@@ -26,6 +26,9 @@
 .xo{
     background-image: url("../assets/xobg.jpg");
 }
+.squares{
+    background-image: url("../assets/squaresbg.jpg");
+}
 .rps{ 
     background-image: url("../assets/rsp.webp"); 
 }
