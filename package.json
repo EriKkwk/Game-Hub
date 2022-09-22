@@ -1,17 +1,20 @@
 {
   "name": "game-hub-react",
-  "private": true,
+  "homepage": "https://erikkwk.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.4.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
