@@ -1,12 +1,12 @@
 {
   "name": "game-hub-react",
-  "homepage": "https://erikkwk.github.io/",
+  "homepage": "https://erikkwk.github.io/erikkwk.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run dev",
+    "deploy" : "gh-pages -d dev",
     "build": "vite build",
     "preview": "vite preview"
   },
