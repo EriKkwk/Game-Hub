@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Layouts from './components/Layouts';
 import TicTacToe from './pages/Tic Tac Toe/Game';
@@ -9,7 +9,7 @@ import RocketGame from './pages/RocketGame/RocketGame';
 
 function App() {
 
-  return <BrowserRouter>
+  return <HashRouter>
     <Routes>
       <Route path="/" element={<Layouts />}>
         <Route path="/" element={<Home />}/>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/games/rocketGame" element={<RocketGame />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 }
 
 export default App;
