@@ -11,8 +11,8 @@ function App() {
 
   return <HashRouter>
     <Routes>
-      <Route path="/" element={<Layouts />}>
-        <Route path="/" element={<Home />}/>
+      <Route path="/erikkwk.github.io" element={<Layouts />}>
+        <Route path="/erikkwk.github.io" element={<Home />}/>
         <Route path="/games/ticTacToe" element={<TicTacToe />} />
         <Route path="/games/squares" element={<BigSquare />} />
         <Route path="/games/rockSpissorsPaperGame" element={<RockSpissorsPaper />} />
