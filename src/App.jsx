@@ -1,5 +1,5 @@
 import './App.css'
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Layouts from './components/Layouts';
 import TicTacToe from './pages/Tic Tac Toe/Game';
@@ -9,17 +9,17 @@ import RocketGame from './pages/RocketGame/RocketGame';
 
 function App() {
 
-  return <HashRouter>
+  return <BrowserRouter>
     <Routes>
-      <Route path="/erikkwk.github.io" element={<Layouts />}>
-        <Route path="/erikkwk.github.io" element={<Home />}/>
+      <Route path="/" element={<Layouts />}>
+        <Route path="/" element={<Home />}/>
         <Route path="/games/ticTacToe" element={<TicTacToe />} />
         <Route path="/games/squares" element={<BigSquare />} />
         <Route path="/games/rockSpissorsPaperGame" element={<RockSpissorsPaper />} />
         <Route path="/games/rocketGame" element={<RocketGame />} />
       </Route>
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 }
 
 export default App;
