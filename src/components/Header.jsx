@@ -2,8 +2,6 @@ import './Header.css'
 import { Link } from 'react-router-dom';
 
 function Header(){
-    
-    const click = () => {alert("We dont know backend :(")}
 
     return <div className='header'>
         <Link to={"/"}>
@@ -13,10 +11,13 @@ function Header(){
         </div>
         </Link>
         <div className="logreg">
-            <button className='hbtn loginbtn' onClick={() => {click()}}>LOGIN</button>
-            <button className='hbtn' onClick={() => {click()}}>REGISTER</button>
+            <Link to={"/statistics"}><button className='hbtn statistic'>STATISTICS</button></Link>
+            <Link to={"/login"}><button className='hbtn loginbtn'>LOGIN</button></Link>
+            <Link to={"/register"}><button className='hbtn'>REGISTER</button></Link>
         </div>
     </div>
 }
 
 export default Header;
+
+

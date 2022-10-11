@@ -73,3 +73,8 @@
 .chbtn:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.user-hand{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

@@ -50,10 +50,10 @@ function RockSpissorsPaper(){
         </div>
         <div className="choice">
             <div className="user-choice">
-              <img className='user-hand' src={`../../../public/${userChoice}.png`} alt={userChoice}></img>
+              <img className='user-hand' src={`/${userChoice}.png`} alt={userChoice}></img>
             </div>
             <div className="bob-choice">
-              <img className='bob-hand' src={`../../../public/${bobChoice}.png`} alt={bobChoice}></img>
+              <img className='bob-hand' src={`/${bobChoice}.png`} alt={bobChoice}></img>
             </div>
         </div>
         <div className='btn-container'>
