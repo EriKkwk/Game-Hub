@@ -1,0 +1,47 @@
+.header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 15px;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.logo i{
+    font-size: 55px;
+}
+.logo span{
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.loginbtn{
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+.hbtn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #1a1a1a;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+.hbtn:hover {
+  border-color: #646cff;
+}
+.hbtn:focus,
+.hbtn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
